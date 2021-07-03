@@ -6,14 +6,17 @@ import Contain from './components/Contain';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
   return (
     <div className="App">
 
-      <Counter />
-      <EventBind />
+      <ParentComponent />
+
+      {/* <Counter />
+      <EventBind /> */}
 
       {/* <Message /> */}
 
