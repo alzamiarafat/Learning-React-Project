@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Contain from './components/Contain';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
 
       <Counter />
+      <EventBind />
 
       {/* <Message /> */}
 
